@@ -6,7 +6,7 @@
   "scripts": {
     "start": "micro",
     "dev": "micro-dev",
-    "deploy": "now"
+    "deploy": "now NODE_ENV=production"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   "dependencies": {
     "micro": "^9.3.2",
     "micro-cors": "^0.1.0",
-    "micro-dev": "^3.0.0",
     "newsapi": "^2.2.2"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
   }
 }
