@@ -1,0 +1,28 @@
+{
+  "name": "newsAPI-facade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "deploy": "now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruzw/newsAPI-facade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruzw/newsAPI-facade/issues"
+  },
+  "homepage": "https://github.com/cruzw/newsAPI-facade#readme",
+  "dependencies": {
+    "micro": "^9.3.2",
+    "micro-cors": "^0.1.0",
+    "micro-dev": "^3.0.0",
+    "newsapi": "^2.2.2"
+  }
+}
